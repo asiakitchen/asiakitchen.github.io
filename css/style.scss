@@ -1,0 +1,201 @@
+/////////////////////////////
+// CSS for Dragon21.us //////
+/////////////////////////////
+
+// Variables ///////////////
+
+$header: 48px;
+$subheader: 28px;
+$paragraphheader: 22px;
+$body: 16px;
+$meta: 13px;
+
+$serif: "PT Sans Serif", georgia, sans-serif;
+$sans-serif: "PT Sans", helvetica, arial, sans-serif;
+
+$darkGrey: #333;
+$darkWine: #920132;
+$wine: #c80d3c;
+$darkOrange: #f70d00;
+$orange: #ff6400;
+$backgroundOrange: #f4a847;
+$lightOrange: #ffd79d;
+$lightYellow: #fff1b2;
+$beige: #f5f4f0;
+
+$yellowTextShadow: 0 1px 0 $lightYellow;
+$orangeTextShadow: 0 1px 0 $lightOrange;
+
+$redGrey: #913a39;
+$redHighlight: #b32422;
+$gold: #e6d087;
+$lightGold: #fefbd2;
+
+$textShadow: 0 1px 0 rgba(0,0,0,0.5);
+
+/////////////////////////////
+
+// Custom Fonts /////////////
+
+@font-face {
+	font-family: 'Rooney Light';
+	src: url('../fonts/2429AE_0_0.eot');
+	src: url('../fonts/2429AE_0_0.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/2429AE_0_0.woff') format('woff'),
+	url('webfonts/2429AE_0_0.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Pluto Sans Cond Light';
+	src: url('../fonts/2429AE_1_0.eot');
+	src: url('../fonts/2429AE_1_0.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/2429AE_1_0.woff') format('woff'),
+	url('../fonts/2429AE_1_0.ttf') format('truetype');
+}
+
+/////////////////////////////
+
+body {
+	background: $redGrey;
+	margin: -21px 0;
+	padding: 0;
+	color: $lightGold;
+	font-size: 16px;
+	font-family: $sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-size: $header;
+	color: $gold;
+	font-family: $sans-serif;
+	font-weight: 300;
+}
+
+h2 {
+	margin: 40px auto 5px;
+	font-size: $subheader;
+	color: $redGrey;
+	font-family: $sans-serif;
+	font-weight: 300;
+}
+
+h3 {
+	width: 360px;
+	margin: 25px auto 5px;
+}
+
+h4 {
+	color: $gold;
+	margin-top: -25px;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	color: $wine;
+}
+	a:hover {
+		color: $orange;
+	}
+	a:active {
+		position: relative;
+		top: 1px; 
+		border: 0; 
+	}
+
+.highlight {
+	color: $orange;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0;
+	width: 33%;
+	height: 100%;
+	background: url('../images/dd.jpg') no-repeat center #fff;
+	text-align: center;
+	border-right: 2px solid $gold;
+}
+
+#logo {
+	background: url('../images/dragon21.png') no-repeat center $redGrey;
+	height: 320px;
+	margin-top: 20px;
+}
+
+#content {
+	background: $redGrey;
+	margin: 0 auto;
+}
+
+footer {
+
+}
+	footer p {
+		background: #222;
+		opacity: 0.75;
+		padding-top: 2px;
+		font-size: 13px;
+		font-family: $serif;
+		color: #f9ca76;
+		text-shadow: 0px 1px 0px #000;
+		line-height: 36px;
+	}
+			
+::selection {
+	background: $redGrey;
+	color: $lightGold;
+	text-shadow: 0 0 0;
+}
+::-moz-selection {
+	background: $redGrey;
+	color: $lightGold;
+	text-shadow: 0 0 0;
+}
+
+
+
+.menu {
+	line-height: 50px;
+	background: $redHighlight;
+	padding: 9px 20px 10px;
+	border-radius: 4px;
+	box-shadow: 0 2px 0 $redGrey;
+	color: $darkGrey;
+	border-bottom: 0;
+	font-family: $sans-serif;
+	font-weight: normal;
+	text-transform: lowercase;
+	color: $lightGold;
+
+	&:hover {
+		background: $redHighlight;
+		color: #fff;
+	}
+
+	&:active {
+		top: 2px;
+		box-shadow: 0 0 0;
+	}
+
+}
+
+ul {
+	text-align: center;
+	margin: 0 auto;
+}
+
+li {
+	float: left;
+	display: block;
+	width: 250px;
+	height: 100px;
+	border-top: 2px $gold solid;
+	background: $beige;
+	color: $darkGrey;
+	margin: 10px 5px;
+	padding: 30px 0;
+}

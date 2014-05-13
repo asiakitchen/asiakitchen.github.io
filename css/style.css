@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'Rooney Light';
+  src: url("../fonts/2429AE_0_0.eot");
+  src: url("../fonts/2429AE_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2429AE_0_0.woff") format("woff"), url("webfonts/2429AE_0_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Pluto Sans Cond Light';
+  src: url("../fonts/2429AE_1_0.eot");
+  src: url("../fonts/2429AE_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2429AE_1_0.woff") format("woff"), url("../fonts/2429AE_1_0.ttf") format("truetype"); }
+
+body {
+  background: #913a39;
+  margin: -21px 0;
+  padding: 0;
+  color: #fefbd2;
+  font-size: 16px;
+  font-family: "PT Sans", helvetica, arial, sans-serif;
+  text-align: center; }
+
+h1 {
+  font-size: 48px;
+  color: #e6d087;
+  font-family: "PT Sans", helvetica, arial, sans-serif;
+  font-weight: 300; }
+
+h2 {
+  margin: 40px auto 5px;
+  font-size: 28px;
+  color: #913a39;
+  font-family: "PT Sans", helvetica, arial, sans-serif;
+  font-weight: 300; }
+
+h3 {
+  width: 360px;
+  margin: 25px auto 5px; }
+
+h4 {
+  color: #e6d087;
+  margin-top: -25px;
+  text-transform: uppercase; }
+
+a {
+  text-decoration: none;
+  color: #c80d3c; }
+
+a:hover {
+  color: #ff6400; }
+
+a:active {
+  position: relative;
+  top: 1px;
+  border: 0; }
+
+.highlight {
+  color: #ff6400; }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 33%;
+  height: 100%;
+  background: url("../images/dd.jpg") no-repeat center white;
+  text-align: center;
+  border-right: 2px solid #e6d087; }
+
+#logo {
+  background: url("../images/dragon21.png") no-repeat center #913a39;
+  height: 320px;
+  margin-top: 20px; }
+
+#content {
+  background: #913a39;
+  margin: 0 auto; }
+
+footer p {
+  background: #222;
+  opacity: 0.75;
+  padding-top: 2px;
+  font-size: 13px;
+  font-family: "PT Sans Serif", georgia, sans-serif;
+  color: #f9ca76;
+  text-shadow: 0px 1px 0px #000;
+  line-height: 36px; }
+
+::selection {
+  background: #913a39;
+  color: #fefbd2;
+  text-shadow: 0 0 0; }
+
+::-moz-selection {
+  background: #913a39;
+  color: #fefbd2;
+  text-shadow: 0 0 0; }
+
+.menu {
+  line-height: 50px;
+  background: #b32422;
+  padding: 9px 20px 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 0 #913a39;
+  color: #333333;
+  border-bottom: 0;
+  font-family: "PT Sans", helvetica, arial, sans-serif;
+  font-weight: normal;
+  text-transform: lowercase;
+  color: #fefbd2; }
+  .menu:hover {
+    background: #b32422;
+    color: #fff; }
+  .menu:active {
+    top: 2px;
+    box-shadow: 0 0 0; }
+
+ul {
+  text-align: center;
+  margin: 0 auto; }
+
+li {
+  float: left;
+  display: block;
+  width: 250px;
+  height: 100px;
+  border-top: 2px #e6d087 solid;
+  background: #f5f4f0;
+  color: #333333;
+  margin: 10px 5px;
+  padding: 30px 0; }
